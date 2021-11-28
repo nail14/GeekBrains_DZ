@@ -7,11 +7,12 @@ elif given_number >= 3600 and given_number <= 86399:
     print(given_number // 3600, 'час', ((given_number % 3600 ) // 60), 'мин', given_number % 60, 'сек')
 elif given_number >= 86400 and given_number <= 31536000:
     print(given_number // (24 * 3600), 'дней', ((given_number % 86400)// 3600), 'час', ((given_number % 3600 ) // 60), 'мин', given_number % 60, 'сек')
+elif given_number >= 31536001 :
+    print('больше года...я сломался')
 print('Отсчёт начат')
 print('3')
 print('2')
 print('1')
-#gitkraken://repolink/fb42fea9328d35172711a49184f6551899947ccc/commit/bc6527ed9b18732328d00b311ad51c6b07fa38a0?url=https%3A%2F%2Fgithub.com%2Fnail14%2F-.git
 
 
 
