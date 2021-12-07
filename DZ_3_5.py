@@ -6,4 +6,4 @@ random_idx_2 = randrange(len(adverbs))
 adjectives = ["веселый", "яркий", "зеленый", "утопичный", "мягкий"]
 random_idx_3 = randrange(len(adjectives))
 jokes= nouns[random_idx_1], adverbs[random_idx_2], adverbs[random_idx_3]
-print(jokes)
+print(jokes) #вывод

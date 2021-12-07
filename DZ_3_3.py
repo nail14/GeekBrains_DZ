@@ -8,4 +8,4 @@ def thesaurus(*names):
             diction[key] = []
         diction[key].append(name)
     return diction
-print(thesaurus("иван".title(), "МаРия".title(), "Петр", "ИльЯ".title()))
+print(thesaurus("иван".title(), "МаРия".title(), "Петр", "ИльЯ".title())) #вывод
