@@ -19,5 +19,5 @@ output_1 = (*islice(gen_mix, len(hobby_2)),)  ##не смог реализова
 
 # print(*islice(gen_mix, len(hobby_2)), sep='\n')
 print(output_1)
-with open('write_data.txt', 'x', encoding='utf-8') as mix:
+with open('write_data.txt', 'w', encoding='utf-8') as mix:
     mix.writelines(str(output_1))
