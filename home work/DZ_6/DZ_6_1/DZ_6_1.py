@@ -1,3 +1,5 @@
+######получить список кортежей вида: (<remote_addr>, <request_type>, <requested_resource>)
+
 from itertools import zip_longest, islice
 import re
 
