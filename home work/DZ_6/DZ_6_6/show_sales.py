@@ -1,16 +1,24 @@
-# def main(argv):
-#    program, *args = argv
-#    result = sum(map(int, args))
-#    print(f'результат: {result}')
-#
-#    return 0
-#
-#
-# if __name__ == '__main__':
-#    import sys
-#
-#    exit(main(sys.argv))
+import sys
 
-import add_sale as sales
-sales.test_fun()
-print(list(sales.bakery_2))
+if __name__ == '__main__':
+    interval = list(map(int, sys.argv[1:]))
+    with open('bakery.csv', 'r', encoding='utf-8') as f:
+        text = f.readline()
+        if len(interval) == 2:
+            for line in text[interval[0] - 1:interval[1]]:
+                print(line.strip())
+        elif len(interval) == 1:
+            for line in text[interval[0] - 1:]:
+                print(line.strip())
+        else:
+            for line in text:
+                print(line.strip())
+    exit()
+
+
+
+
+
+# import add_sale as sales
+# sales.test_fun()
+# print(list(sales.bakery_2))
