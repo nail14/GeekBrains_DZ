@@ -25,5 +25,5 @@ print(type(wraps), wraps)
 
 a = calc_cube(5)
 print(type(a), a)
-# a = calc_cube(-5)
-# print(type(a), a)
+a = calc_cube(-5)
+print(type(a), a)
