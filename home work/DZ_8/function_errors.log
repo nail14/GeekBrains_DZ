@@ -1,0 +1,4 @@
+<check_line>  <('someone@geekbrains.ru',)>  <<class 'Exception'>>  <not enough values to unpack (expected 3, got 1)>
+<perky>  <{'param': 42}>  <<class 'Exception'>>  <division by zero>
+<check_line>  <('someone@geekbrains.ru',)>  <<class 'Exception'>>  <not enough values to unpack (expected 3, got 1)>
+<perky>  <{'param': 42}>  <<class 'Exception'>>  <division by zero>
