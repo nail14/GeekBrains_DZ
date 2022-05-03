@@ -10,7 +10,7 @@ enterp = [0 for a in range(Count_enteprise)]
 total_profit = 0
 
 for i in range(Count_enteprise):
-    name =input(f'Введите название {i+1} предприятия: ')
+    name = input(f'Введите название {i+1} предприятия: ')
     quarts = [float(k) for k in input('Введите через пробел прибыль за каждый квартал: ').split()]
     year = 0
     for quart in quarts:
